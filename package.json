@@ -1,0 +1,21 @@
+{
+  "name": "gambberonedocs",
+  "version": "0.0.1",
+  "description": "A VuePress app where I can write my coding docs",
+  "main": "index.js",
+  "authors": {
+    "name": "Gabriel Mihai",
+    "email": "mihai95gabrieldev@gmail.com"
+  },
+  "repository": "/GambberoneDocs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "firebase deploy",
+    "build:deploy": "yarn build && sleep 5 && firebase deploy"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
